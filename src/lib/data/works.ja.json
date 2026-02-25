@@ -1,0 +1,41 @@
+{
+	"hero": {
+		"title": "実績",
+		"subtitle": "これまでの取り組み"
+	},
+	"works": [
+		{
+			"id": "work-001",
+			"title": "東南アジア農業開発プロジェクト",
+			"category": "農業開発",
+			"description": "小規模農家の生産性向上と市場アクセス改善を目的とした包括的な農業開発プロジェクト。",
+			"year": "2021-2023",
+			"location": "ベトナム",
+			"image": "/images/works/project-001.webp",
+			"featured": true,
+			"tags": ["農業", "生計向上", "市場開発"]
+		},
+		{
+			"id": "work-002",
+			"title": "アフリカ教育支援プログラム",
+			"category": "教育",
+			"description": "初等教育の質の向上と就学率改善を目指した教育支援プログラム。",
+			"year": "2022-2024",
+			"location": "ケニア",
+			"image": "/images/works/project-002.webp",
+			"featured": true,
+			"tags": ["教育", "能力開発", "インフラ整備"]
+		},
+		{
+			"id": "work-003",
+			"title": "水資源管理プロジェクト",
+			"category": "環境",
+			"description": "持続可能な水資源管理システムの構築と地域住民の能力強化。",
+			"year": "2023-2025",
+			"location": "インドネシア",
+			"image": "/images/works/project-003.webp",
+			"featured": false,
+			"tags": ["水資源", "環境保全", "コミュニティ開発"]
+		}
+	]
+}

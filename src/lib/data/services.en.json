@@ -1,0 +1,29 @@
+{
+	"hero": {
+		"title": "Our Services",
+		"subtitle": "What we offer"
+	},
+	"services": [
+		{
+			"id": "service-01",
+			"title": "International Development Consulting",
+			"description": "We provide comprehensive consulting services from planning to implementation of sustainable development projects in developing countries.",
+			"details": "We support the entire project lifecycle including policy advice, project design, implementation support, and monitoring & evaluation.",
+			"tags": ["Consulting", "Project Management", "Policy Advice"]
+		},
+		{
+			"id": "service-02",
+			"title": "Project Management",
+			"description": "We support effective management of international cooperation projects to ensure project success.",
+			"details": "We provide expertise in project management including budget management, progress tracking, risk management, and stakeholder coordination.",
+			"tags": ["Project Management", "Risk Management", "Quality Control"]
+		},
+		{
+			"id": "service-03",
+			"title": "Capacity Development Support",
+			"description": "We achieve sustainable development through capacity building of local staff and related organizations.",
+			"details": "We provide comprehensive services related to human resource development including training program design & implementation, technology transfer, and organizational strengthening.",
+			"tags": ["Training", "Technology Transfer", "Organizational Development"]
+		}
+	]
+}

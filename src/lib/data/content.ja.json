@@ -1,0 +1,28 @@
+{
+	"site": {
+		"name": "JSY Global",
+		"tagline": "開発コンサルティング、各種リサーチ、まちづくり、教育事業ほか"
+	},
+	"nav": {
+		"home": "ホーム",
+		"about": "会社概要",
+		"services": "事業内容",
+		"works": "実績",
+		"news": "お知らせ",
+		"blog": "ブログ",
+		"contact": "お問い合わせ"
+	},
+	"footer": {
+		"company": "会社情報",
+		"address": "〒100-0001 東京都千代田区千代田1-1-1",
+		"phone": "TEL: 03-1234-5678",
+		"email": "info@jsy-global.com",
+		"copyright": "© 2026 JSY Global. All rights reserved."
+	},
+	"common": {
+		"readMore": "詳しく見る",
+		"contactUs": "お問い合わせ",
+		"learnMore": "もっと見る",
+		"viewAll": "すべて見る"
+	}
+}
