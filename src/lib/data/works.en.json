@@ -6,36 +6,39 @@
 	"works": [
 		{
 			"id": "work-001",
-			"title": "Southeast Asia Agricultural Development Project",
+			"title": "Local Rice Promotion Project",
 			"category": "Agricultural Development",
-			"description": "A comprehensive agricultural development project aimed at improving productivity and market access for smallholder farmers.",
-			"year": "2021-2023",
-			"location": "Vietnam",
+			"description": "Contributed to expanding rice sales in target areas by strengthening quality seed supply systems and extension services, improving post-harvest processing facilities, technologies and management capabilities, and promoting local rice sales to urban consumers.",
+			"year": "2025",
+			"location": "Côte d'Ivoire",
+			"client": "JICA",
 			"image": "/images/works/project-001.webp",
 			"featured": true,
-			"tags": ["Agriculture", "Livelihood", "Market Development"]
+			"tags": ["Agricultural Development", "Market Development", "Livelihood"]
 		},
 		{
 			"id": "work-002",
-			"title": "Africa Education Support Program",
-			"category": "Education",
-			"description": "An education support program aimed at improving the quality of primary education and enrollment rates.",
-			"year": "2022-2024",
-			"location": "Kenya",
+			"title": "Zero Emission and Heat Pump Energy Efficiency Promotion Project",
+			"category": "Energy",
+			"description": "Supporting the strengthening of energy efficiency promotion capacity in Thailand through the development of roadmaps, guidelines, energy efficiency standards, and financial mechanisms for the dissemination of ZEB/ZEH and heat pumps.",
+			"year": "2023",
+			"location": "Thailand",
+			"client": "JICA",
 			"image": "/images/works/project-002.webp",
 			"featured": true,
-			"tags": ["Education", "Capacity Building", "Infrastructure"]
+			"tags": ["Energy", "Energy Efficiency", "Climate Change"]
 		},
 		{
 			"id": "work-003",
-			"title": "Water Resources Management Project",
-			"category": "Environment",
-			"description": "Building a sustainable water resources management system and strengthening local community capacity.",
-			"year": "2023-2025",
-			"location": "Indonesia",
+			"title": "Solid and Plastic Waste Management System and Infrastructures in Lao PDR: Pre-feasibility Study",
+			"category": "Waste Management",
+			"description": "Conducted a pre-feasibility study to address the substantial increase in solid waste generation in Laos, where solid waste collection is not undertaken adequately, for building sustainable waste management systems and infrastructures.",
+			"year": "2020",
+			"location": "Lao PDR",
+			"client": "World Bank",
 			"image": "/images/works/project-003.webp",
 			"featured": false,
-			"tags": ["Water Resources", "Environmental Conservation", "Community Development"]
+			"tags": ["Waste Management", "Environmental Conservation", "Urban Development"]
 		}
 	]
 }

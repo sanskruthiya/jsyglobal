@@ -7,23 +7,23 @@
 		{
 			"id": "service-01",
 			"title": "International Development Consulting",
-			"description": "We provide comprehensive consulting services from planning to implementation of sustainable development projects in developing countries.",
-			"details": "We support the entire project lifecycle including policy advice, project design, implementation support, and monitoring & evaluation.",
-			"tags": ["Consulting", "Project Management", "Policy Advice"]
+			"description": "We support sustainable development in developing countries.",
+			"details": "Drawing on extensive experience in evaluation and monitoring of ODA projects, urban development and waste management policies, and rural and community development, we design and implement practical projects that meet the needs of both donors and local communities.",
+			"tags": ["Evaluation & Monitoring", "Urban Development", "Community Development"]
 		},
 		{
 			"id": "service-02",
-			"title": "Project Management",
-			"description": "We support effective management of international cooperation projects to ensure project success.",
-			"details": "We provide expertise in project management including budget management, progress tracking, risk management, and stakeholder coordination.",
-			"tags": ["Project Management", "Risk Management", "Quality Control"]
+			"title": "Research & Studies",
+			"description": "We conduct specialized research that contributes to policy recommendations and decision-making.",
+			"details": "With expertise in urban development, waste management policies, and the energy sector, we provide insights for sustainable development based on field surveys and data analysis.",
+			"tags": ["Urban Development", "Waste Management", "Energy"]
 		},
 		{
 			"id": "service-03",
-			"title": "Capacity Development Support",
-			"description": "We achieve sustainable development through capacity building of local staff and related organizations.",
-			"details": "We provide comprehensive services related to human resource development including training program design & implementation, technology transfer, and organizational strengthening.",
-			"tags": ["Training", "Technology Transfer", "Organizational Development"]
+			"title": "Education & Human Resource Development",
+			"description": "We support the development of global talent active on the frontlines of international cooperation.",
+			"details": "We provide practical education in SDGs education, international cooperation personnel training, and evaluation and monitoring workshops to develop highly specialized professionals.",
+			"tags": ["SDGs Education", "Human Resource Development", "Training Programs"]
 		}
 	]
 }
