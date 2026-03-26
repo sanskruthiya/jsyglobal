@@ -35,6 +35,7 @@ export default {
 			},
 			fontFamily: {
 				sans: [
+					'Inter',
 					'system-ui',
 					'-apple-system',
 					'BlinkMacSystemFont',
@@ -48,6 +49,14 @@ export default {
 					'"Segoe UI Emoji"',
 					'"Segoe UI Symbol"',
 					'"Noto Color Emoji"'
+				],
+				serif: [
+					'"Playfair Display"',
+					'Georgia',
+					'Cambria',
+					'"Times New Roman"',
+					'Times',
+					'serif'
 				]
 			}
 		}

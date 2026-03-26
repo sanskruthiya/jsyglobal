@@ -59,7 +59,17 @@
 		<div class="grid gap-8 md:grid-cols-2">
 			{#each featuredWorks as work}
 				<div class="card">
-					<div class="mb-4 h-48 rounded-lg bg-gray-200"></div>
+					{#if work.image}
+						<div class="mb-4 h-48 overflow-hidden rounded-lg">
+							<img 
+								src={work.image} 
+								alt={work.title}
+								class="h-full w-full object-cover"
+							/>
+						</div>
+					{:else}
+						<div class="mb-4 h-48 rounded-lg bg-gray-200"></div>
+					{/if}
 					<div class="mb-2 flex items-center justify-between">
 						<span class="text-sm font-semibold text-primary-600">{work.category}</span>
 						<span class="text-sm text-gray-500">{work.year}</span>
@@ -78,7 +88,7 @@
 		</div>
 		<div class="mt-8 text-center">
 			<a href="/works" class="btn-primary">
-				{content.common?.viewAll || 'View All'}
+				{content.common?.viewAll || 'View More'}
 			</a>
 		</div>
 	</div>

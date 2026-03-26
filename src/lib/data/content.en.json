@@ -1,7 +1,7 @@
 {
 	"site": {
 		"name": "JSY Global",
-		"tagline": "Community Development, Consulting, Research, Education, and More"
+		"tagline": "Community Development, Consulting, Research & Education"
 	},
 	"nav": {
 		"home": "Home",
@@ -23,6 +23,6 @@
 		"readMore": "Read More",
 		"contactUs": "Contact Us",
 		"learnMore": "Learn More",
-		"viewAll": "View All"
+		"viewAll": "View More"
 	}
 }

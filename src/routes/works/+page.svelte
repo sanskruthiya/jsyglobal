@@ -12,11 +12,22 @@
 	});
 
 	let categories = $derived(['all', ...new Set((works.works || []).map((w: any) => w.category))]);
-	let filteredWorks = $derived(
-		selectedCategory === 'all'
+	
+	let filteredWorks = $derived.by(() => {
+		const filtered = selectedCategory === 'all'
 			? works.works || []
-			: (works.works || []).filter((w: any) => w.category === selectedCategory)
-	);
+			: (works.works || []).filter((w: any) => w.category === selectedCategory);
+		
+		return [...filtered].sort((a: any, b: any) => {
+			// Sort: projects with images first, then without images
+			const hasImageA = a.image && a.image.length > 0;
+			const hasImageB = b.image && b.image.length > 0;
+			
+			if (hasImageA && !hasImageB) return -1;
+			if (!hasImageA && hasImageB) return 1;
+			return 0;
+		});
+	});
 </script>
 
 <svelte:head>
@@ -49,7 +60,15 @@
 		<div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 			{#each filteredWorks as work}
 				<div class="card">
-					<div class="mb-4 h-48 rounded-lg bg-gray-200"></div>
+					{#if work.image}
+						<div class="mb-4 h-48 overflow-hidden rounded-lg">
+							<img 
+								src={work.image} 
+								alt={work.title}
+								class="h-full w-full object-cover"
+							/>
+						</div>
+					{/if}
 					<div class="mb-2 flex items-center justify-between">
 						<span class="text-sm font-semibold text-primary-600">{work.category}</span>
 						<span class="text-sm text-gray-500">{work.year}</span>

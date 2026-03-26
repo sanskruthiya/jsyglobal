@@ -12,12 +12,36 @@
 			"year": "2025",
 			"location": "コートジボワール",
 			"client": "JICA",
-			"image": "/images/works/project-001.webp",
+			"image": "/images/contents/2025_CD.webp",
 			"featured": true,
 			"tags": ["農業開発", "市場開発", "生計向上"]
 		},
 		{
 			"id": "work-002",
+			"title": "難民キャンプにおけるコミュニティ主導の生計向上プロジェクト（PALCIP）",
+			"category": "コミュニティ開発",
+			"description": "パレスチナ難民キャンプにおいて、インフラの劣化と経済的脆弱性に対処し、コミュニティ主導の取り組みを通じて住民の自律的な生計手段の確保と経済的エンパワーメントを支援。",
+			"year": "2025",
+			"location": "パレスチナ",
+			"client": "JICA",
+			"image": "/images/contents/2025_PS.webp",
+			"featured": true,
+			"tags": ["コミュニティ開発", "生計向上", "難民支援"]
+		},
+		{
+			"id": "work-003",
+			"title": "天然ガス利活用能力強化プロジェクト",
+			"category": "エネルギー",
+			"description": "タンザニア国において、環境に配慮した天然ガス利用を促進し経済成長に貢献するため、総合的な天然ガス利用計画の策定、制度設計の更新、国内利活用の促進、および関連事業推進能力の強化を支援。",
+			"year": "2023",
+			"location": "タンザニア",
+			"client": "JICA",
+			"image": "/images/contents/20xx_TZ.webp",
+			"featured": false,
+			"tags": ["エネルギー", "天然ガス", "能力強化"]
+		},
+		{
+			"id": "work-004",
 			"title": "ゼロエミッション及びヒートポンプによる省エネルギー推進プロジェクト",
 			"category": "エネルギー",
 			"description": "ZEB/ZEHおよびヒートポンプの普及に向けたロードマップ、ガイドライン、エネルギー効率基準の作成、および資金メカニズムの提案を通じて、タイにおける省エネルギー促進実施能力の強化を支援。",
@@ -25,11 +49,11 @@
 			"location": "タイ",
 			"client": "JICA",
 			"image": "/images/works/project-002.webp",
-			"featured": true,
+			"featured": false,
 			"tags": ["エネルギー", "省エネルギー", "気候変動"]
 		},
 		{
-			"id": "work-003",
+			"id": "work-005",
 			"title": "固形廃棄物及びプラスチック廃棄物管理システム・インフラに関する事前調査",
 			"category": "廃棄物管理",
 			"description": "ラオスにおける固形廃棄物の発生量が増加する一方で、廃棄物収集が十分に行われていない状況を踏まえ、持続可能な廃棄物管理システムとインフラ構築に向けた事前調査を実施。",
