@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { language } from '$lib/stores/language';
 	import { loadContent } from '$lib/utils/content';
+	import PageHeader from '$lib/components/PageHeader.svelte';
 
 	let news: any = $state({});
 
@@ -18,16 +19,14 @@
 </script>
 
 <svelte:head>
-	<title>{news.hero?.title || 'News'} - JSY Global</title>
+	<title>{news.hero?.title || 'News'} - JSY-Global</title>
 	<meta name="description" content={news.hero?.subtitle || 'Latest updates'} />
 </svelte:head>
 
-<section class="bg-primary-600 py-16 text-white">
-	<div class="container-custom">
-		<h1 class="mb-4 text-4xl font-bold md:text-5xl">{news.hero?.title || 'News'}</h1>
-		<p class="text-xl">{news.hero?.subtitle || 'Latest updates'}</p>
-	</div>
-</section>
+<PageHeader 
+	title={news.hero?.title || 'News'} 
+	subtitle={news.hero?.subtitle || 'Latest updates'} 
+/>
 
 <section class="py-16">
 	<div class="container-custom">

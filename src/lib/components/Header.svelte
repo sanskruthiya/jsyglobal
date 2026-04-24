@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { language } from '$lib/stores/language';
 	import { loadContent } from '$lib/utils/content';
-	import { onMount } from 'svelte';
 
 	let content: any = $state({});
 	let mobileMenuOpen = $state(false);
@@ -31,8 +30,11 @@
 	<nav class="container-custom">
 		<div class="flex h-16 items-center justify-between">
 			<div class="flex items-center">
-				<a href="/" class="text-xl font-bold text-primary-600">
-					{content.site?.name || 'JSY Global'}
+				<a href="/" class="flex items-center gap-2">
+					<img src="/images/LogoOnly.png" alt="JSY-Global Logo" class="h-10 w-auto" />
+					<span class="text-xl font-bold text-primary-600">
+						{content.site?.name || 'JSY-Global'}
+					</span>
 				</a>
 			</div>
 

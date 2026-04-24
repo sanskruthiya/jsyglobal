@@ -1,12 +1,12 @@
 {
 	"hero": {
 		"title": "会社概要",
-		"subtitle": "JSY Globalについて"
+		"subtitle": "JSY-Globalについて"
 	},
 	"info": {
 		"title": "会社情報",
 		"items": [
-			{ "label": "会社名", "value": "JSY Global" },
+			{ "label": "会社名", "value": "JSY-Global" },
 			{ "label": "設立", "value": "-" },
 			{ "label": "資本金", "value": "-" },
 			{ "label": "代表者", "value": "代表取締役 渡邉 梨紗子" },

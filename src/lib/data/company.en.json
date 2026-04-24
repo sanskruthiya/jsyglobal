@@ -1,12 +1,12 @@
 {
 	"hero": {
 		"title": "About Us",
-		"subtitle": "Learn more about JSY Global"
+		"subtitle": "Learn more about JSY-Global"
 	},
 	"info": {
 		"title": "Company Information",
 		"items": [
-			{ "label": "Company Name", "value": "JSY Global" },
+			{ "label": "Company Name", "value": "JSY-Global" },
 			{ "label": "Established", "value": "-" },
 			{ "label": "Capital", "value": "-" },
 			{ "label": "CEO", "value": "Risako Watanabe" },

@@ -1,22 +1,13 @@
-# sv
+# JSY-Global Inc. Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Official website for JSY-Global Inc. - Community Development, Consulting, Research & Education
 
-## Creating a project
+## Tech Stack
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv create --template minimal --types ts --add prettier eslint sveltekit-adapter="adapter:static" --install npm jsyglobal
-```
+- **Framework**: SvelteKit 2.x with Svelte 5
+- **Styling**: TailwindCSS 3.x
+- **Language**: TypeScript
+- **Deployment**: Static adapter (adapter-static)
 
 ## Developing
 

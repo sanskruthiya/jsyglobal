@@ -1,9 +1,10 @@
 <script lang="ts">
 	import { language } from '$lib/stores/language';
 	import { loadContent } from '$lib/utils/content';
+	import PageHeader from '$lib/components/PageHeader.svelte';
 
 	let works: any = $state({});
-	let selectedCategory = $state('all');
+	let selectedCategory = $state<string>('all');
 
 	$effect(() => {
 		loadContent($language, 'works').then((data) => {
@@ -11,7 +12,7 @@
 		});
 	});
 
-	let categories = $derived(['all', ...new Set((works.works || []).map((w: any) => w.category))]);
+	let categories = $derived(['all', ...new Set((works.works || []).map((w: any) => w.category))]) as string[];
 	
 	let filteredWorks = $derived.by(() => {
 		const filtered = selectedCategory === 'all'
@@ -31,16 +32,14 @@
 </script>
 
 <svelte:head>
-	<title>{works.hero?.title || 'Works'} - JSY Global</title>
+	<title>{works.hero?.title || 'Works'} - JSY-Global</title>
 	<meta name="description" content={works.hero?.subtitle || 'Our Works'} />
 </svelte:head>
 
-<section class="bg-primary-600 py-16 text-white">
-	<div class="container-custom">
-		<h1 class="mb-4 text-4xl font-bold md:text-5xl">{works.hero?.title || 'Our Works'}</h1>
-		<p class="text-xl">{works.hero?.subtitle || 'Our achievements'}</p>
-	</div>
-</section>
+<PageHeader 
+	title={works.hero?.title || 'Our Works'} 
+	subtitle={works.hero?.subtitle || 'Our achievements'} 
+/>
 
 <section class="py-16">
 	<div class="container-custom">

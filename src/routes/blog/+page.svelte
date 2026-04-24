@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { language } from '$lib/stores/language';
 	import { loadContent } from '$lib/utils/content';
+	import PageHeader from '$lib/components/PageHeader.svelte';
 
 	let content: any = $state({});
 
@@ -9,56 +10,46 @@
 			content = data;
 		});
 	});
-
-	const blogUrl = 'https://example.com/blog';
 </script>
 
 <svelte:head>
-	<title>{content.nav?.blog || 'Blog'} - JSY Global</title>
-	<meta name="description" content="JSY Global Blog" />
+	<title>{content.nav?.blog || 'Blog'} - JSY-Global</title>
+	<meta name="description" content="JSY-Global Blog" />
 </svelte:head>
 
-<section class="bg-primary-600 py-16 text-white">
-	<div class="container-custom">
-		<h1 class="mb-4 text-4xl font-bold md:text-5xl">{content.nav?.blog || 'Blog'}</h1>
-		<p class="text-xl">
-			{$language === 'ja' 
-				? 'JSY Globalのブログをご覧いただけます' 
-				: 'Visit JSY Global Blog'}
-		</p>
-	</div>
-</section>
+<PageHeader 
+	title={content.nav?.blog || 'Blog'} 
+	subtitle={$language === 'ja' ? 'ブログページは現在準備中です' : 'Blog page is currently under construction'} 
+/>
 
 <section class="py-16">
 	<div class="container-custom">
 		<div class="mx-auto max-w-3xl text-center">
 			<div class="card">
 				<div class="mb-8">
-					<svg class="mx-auto h-24 w-24 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<svg class="mx-auto h-24 w-24 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
 					</svg>
 				</div>
 				<h2 class="mb-4 text-2xl font-bold text-gray-900">
 					{$language === 'ja' 
-						? 'ブログサイトへ移動します' 
-						: 'Go to Blog Site'}
+						? 'Coming Soon' 
+						: 'Coming Soon'}
 				</h2>
 				<p class="mb-8 text-gray-600">
 					{$language === 'ja' 
-						? '下のボタンをクリックすると、外部のブログサイトに移動します。' 
-						: 'Click the button below to visit our external blog site.'}
+						? 'ブログページは現在準備中です。近日公開予定ですので、しばらくお待ちください。' 
+						: 'The blog page is currently under construction. Please check back soon.'}
 				</p>
-				<a 
-					href={blogUrl} 
-					target="_blank" 
-					rel="noopener noreferrer"
-					class="btn-primary inline-flex items-center gap-2 text-lg shadow-lg transition-all hover:scale-105 hover:shadow-xl"
+				<button 
+					disabled
+					class="inline-flex cursor-not-allowed items-center gap-2 rounded-lg bg-gray-300 px-8 py-3 text-lg font-semibold text-gray-500 opacity-60"
 				>
-					{$language === 'ja' ? 'ブログを見る' : 'Visit Blog'}
+					{$language === 'ja' ? 'ブログを見る（準備中）' : 'Visit Blog (Coming Soon)'}
 					<svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
 					</svg>
-				</a>
+				</button>
 			</div>
 		</div>
 	</div>

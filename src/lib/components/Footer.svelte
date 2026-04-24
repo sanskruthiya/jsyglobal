@@ -15,20 +15,23 @@
 	<div class="container-custom py-12">
 		<div class="grid gap-8 md:grid-cols-3">
 			<div>
-				<h3 class="mb-4 text-lg font-bold text-gray-900">
-					{content.site?.name || 'JSY Global'}
-				</h3>
+				<div class="mb-4 flex items-center gap-3">
+					<img src="/images/LogoOnly.png" alt="JSY-Global Logo" class="h-10 w-auto" />
+					<h3 class="text-lg font-bold text-gray-900">
+						{content.site?.name || 'JSY-Global'}
+					</h3>
+				</div>
 				<p class="text-sm text-gray-600">
 					{content.site?.tagline || 'Connecting the World through International Development'}
 				</p>
 			</div>
 
 			<div>
-				<h4 class="mb-4 font-semibold text-gray-900">{content.footer?.company || 'Company Information'}</h4>
+				<h4 class="mb-4 font-semibold text-gray-900">
+					{$language === 'ja' ? '会社情報' : 'Company Information'}
+				</h4>
 				<div class="space-y-2 text-sm text-gray-600">
-					<p>{content.footer?.address || ''}</p>
-					<p>{content.footer?.phone || ''}</p>
-					<p>{content.footer?.email || ''}</p>
+					<p>1-6-16-405 KandaIzumi,<br />Chiyoda-ku, Tokyo, Japan</p>
 				</div>
 			</div>
 
@@ -61,7 +64,7 @@
 		</div>
 
 		<div class="mt-8 border-t border-gray-200 pt-8 text-center text-sm text-gray-600">
-			<p>{content.footer?.copyright || ' 2026 JSY Global. All rights reserved.'}</p>
+			<p>{content.footer?.copyright || ' 2026 JSY-Global. All rights reserved.'}</p>
 		</div>
 	</div>
 </footer>

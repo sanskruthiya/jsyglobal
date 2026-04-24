@@ -5,25 +5,11 @@
 	},
 	"news": [
 		{
-			"id": "2026-003",
-			"date": "2026-02-20",
+			"id": "2026-001",
+			"date": "2026-04-24",
 			"category": "Announcement",
-			"title": "New Project Launch Announcement",
-			"summary": "We have started a new development project in the South Asia region."
-		},
-		{
-			"id": "2026-002",
-			"date": "2026-02-01",
-			"category": "Press Release",
 			"title": "Official Website Renewal Announcement",
 			"summary": "We are pleased to announce the complete renewal of our official website."
-		},
-		{
-			"id": "2026-001",
-			"date": "2026-01-15",
-			"category": "News",
-			"title": "Year-End Holiday Notice",
-			"summary": "Please note that our office will be closed during the following period for the year-end holidays."
 		}
 	]
 }

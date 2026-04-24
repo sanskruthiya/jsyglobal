@@ -28,7 +28,7 @@
 </script>
 
 <svelte:head>
-	<title>{content.site?.name || 'JSY Global'}</title>
+	<title>{content.site?.name || 'JSY-Global'}</title>
 	<meta name="description" content={content.site?.tagline || 'International Development Company'} />
 </svelte:head>
 
