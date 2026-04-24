@@ -1,0 +1,5 @@
+name = "jsyglobal"
+compatibility_date = "2026-04-24"
+
+[site]
+bucket = "./build"
