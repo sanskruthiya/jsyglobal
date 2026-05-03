@@ -26,7 +26,7 @@
 		submitStatus = 'idle';
 
 		try {
-			const response = await fetch('https://formspree.io/f/mpwjnvdr', {
+			const response = await fetch('https://formspree.io/f/xzdodawn', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json'
