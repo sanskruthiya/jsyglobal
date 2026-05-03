@@ -1,0 +1,15 @@
+{
+	"hero": {
+		"title": "News",
+		"subtitle": "Latest updates"
+	},
+	"news": [
+		{
+			"id": "2026-001",
+			"date": "2026-04-24",
+			"category": "Announcement",
+			"title": "Official Website Renewal Announcement",
+			"summary": "We are pleased to announce the complete renewal of our official website."
+		}
+	]
+}

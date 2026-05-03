@@ -1,0 +1,68 @@
+{
+	"hero": {
+		"title": "Our Works",
+		"subtitle": "Our achievements"
+	},
+	"works": [
+		{
+			"id": "work-001",
+			"title": "Local Rice Promotion Project",
+			"category": "Agricultural Development",
+			"description": "Contributed to expanding rice sales in target areas by strengthening quality seed supply systems and extension services, improving post-harvest processing facilities, technologies and management capabilities, and promoting local rice sales to urban consumers.",
+			"year": "2025",
+			"location": "Côte d'Ivoire",
+			"client": "JICA",
+			"image": "/images/contents/2025_CD.webp",
+			"featured": true,
+			"tags": ["Agricultural Development", "Market Development", "Livelihood"]
+		},
+		{
+			"id": "work-002",
+			"title": "Refugee Camp Improvement Project",
+			"category": "Community Development",
+			"description": "Supporting livelihood improvement and economic empowerment in Palestinian refugee camps through community-led initiatives, addressing infrastructure deterioration and economic vulnerability to help residents secure autonomous income sources.",
+			"year": "2025",
+			"location": "Palestine",
+			"client": "JICA",
+			"image": "/images/contents/2025_PS.webp",
+			"featured": true,
+			"tags": ["Community Development", "Livelihood", "Refugee Support"]
+		},
+		{
+			"id": "work-003",
+			"title": "Natural Gas Utilization Capacity Enhancement Project",
+			"category": "Energy",
+			"description": "Supporting the development of a comprehensive natural gas utilization plan and capacity building to promote environmentally-conscious domestic gas use and contribute to economic growth in Tanzania through planning and institutional design, utilization promotion, and capacity strengthening for gas-related projects.",
+			"year": "2023",
+			"location": "Tanzania",
+			"client": "JICA",
+			"image": "/images/contents/20xx_TZ.webp",
+			"featured": false,
+			"tags": ["Energy", "Natural Gas", "Capacity Building"]
+		},
+		{
+			"id": "work-004",
+			"title": "Zero Emission and Heat Pump Energy Efficiency Promotion Project",
+			"category": "Energy",
+			"description": "Supporting the strengthening of energy efficiency promotion capacity in Thailand through the development of roadmaps, guidelines, energy efficiency standards, and financial mechanisms for the dissemination of ZEB/ZEH and heat pumps.",
+			"year": "2023",
+			"location": "Thailand",
+			"client": "JICA",
+			"image": "",
+			"featured": false,
+			"tags": ["Energy", "Energy Efficiency", "Climate Change"]
+		},
+		{
+			"id": "work-005",
+			"title": "Solid and Plastic Waste Management System and Infrastructures in Lao PDR: Pre-feasibility Study",
+			"category": "Waste Management",
+			"description": "Conducted a pre-feasibility study to address the substantial increase in solid waste generation in Laos, where solid waste collection is not undertaken adequately, for building sustainable waste management systems and infrastructures.",
+			"year": "2020",
+			"location": "Lao PDR",
+			"client": "World Bank",
+			"image": "",
+			"featured": false,
+			"tags": ["Waste Management", "Environmental Conservation", "Urban Development"]
+		}
+	]
+}

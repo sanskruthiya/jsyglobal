@@ -1,0 +1,18 @@
+{
+	"hero": {
+		"title": "会社概要",
+		"subtitle": "JSY-Globalについて"
+	},
+	"info": {
+		"title": "会社情報",
+		"items": [
+			{ "label": "会社名", "value": "JSY-Global" },
+			{ "label": "設立", "value": "-" },
+			{ "label": "資本金", "value": "-" },
+			{ "label": "代表者", "value": "代表取締役 渡邉 梨紗子" },
+			{ "label": "所在地", "value": "東京都千代田区神田和泉町1-6-16-405" },
+			{ "label": "従業員数", "value": "-" },
+			{ "label": "事業内容", "value": "国際開発コンサルティング" }
+		]
+	}
+}

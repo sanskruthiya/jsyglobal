@@ -1,0 +1,18 @@
+{
+	"hero": {
+		"title": "About Us",
+		"subtitle": "Learn more about JSY-Global"
+	},
+	"info": {
+		"title": "Company Information",
+		"items": [
+			{ "label": "Company Name", "value": "JSY-Global" },
+			{ "label": "Established", "value": "-" },
+			{ "label": "Capital", "value": "-" },
+			{ "label": "CEO", "value": "Risako Watanabe" },
+			{ "label": "Address", "value": "1-6-16-405 KandaIzumi, Chiyoda-ku, Tokyo, Japan" },
+			{ "label": "Employees", "value": "-" },
+			{ "label": "Business", "value": "International Development Consulting" }
+		]
+	}
+}

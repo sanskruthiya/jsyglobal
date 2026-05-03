@@ -1,0 +1,28 @@
+{
+	"site": {
+		"name": "JSY-Global",
+		"tagline": "Community Development, Consulting, Research & Education"
+	},
+	"nav": {
+		"home": "Home",
+		"about": "About",
+		"services": "Services",
+		"works": "Works",
+		"news": "News",
+		"blog": "Blog",
+		"contact": "Contact"
+	},
+	"footer": {
+		"company": "Company Information",
+		"address": "1-1-1 Chiyoda, Chiyoda-ku, Tokyo 100-0001, Japan",
+		"phone": "TEL: +81-3-1234-5678",
+		"email": "info@jsy-global.com",
+		"copyright": "© 2026 JSY-Global. All rights reserved."
+	},
+	"common": {
+		"readMore": "Read More",
+		"contactUs": "Contact Us",
+		"learnMore": "Learn More",
+		"viewAll": "View More"
+	}
+}
